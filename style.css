@@ -1,0 +1,94 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(200, 195, 195);
+  font-family: "Handjet", sans-serif;
+  font-optical-sizing: auto;
+}
+.page {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 25vh;
+}
+/* img */
+.lapImg {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10vw;
+}
+.circuitImg {
+  display: flex;
+  width: 45vw;
+  height: 50vh;
+  background-color: aqua;
+}
+.logoImg {
+  display: flex;
+  width: 45vw;
+  height: 20vh;
+  background-color: black;
+}
+
+/* .buttons */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+/* -->startButton */
+.startButton {
+  font-size: 30px;
+}
+.startButton:hover {
+  cursor: pointer;
+}
+
+/* -->record */
+.recordButton {
+  font-size: 30px;
+}
+.recordButton:hover {
+  cursor: pointer;
+}
+
+/* -->set */
+.setButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+  font-size: 25px;
+}
+.setButton:hover {
+  cursor: pointer;
+}
+
+/* other */
+.time {
+  font-size: 80px;
+  font-weight: bold;
+}
+.recordingPage {
+  display: flex;
+  width: 30vw;
+  height: 30vh;
+  background-color: aliceblue;
+  overflow: auto;
+  font-size: 20px;
+}
+.timerecording {
+}
+.fa-house {
+  display: flex;
+  font-size: 10px;
+  position: fixed;
+}
+.fa-house:hover {
+  cursor: pointer;
+}
